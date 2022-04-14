@@ -14,7 +14,7 @@ void print_times_table(int limit)
 	{
 		_putchar('0');
 		_putchar(',');
-		_putchar(' ');
+	    
 		for (cone = 1; cone <= limit; cone++)
 		{
 			d = (rone * cone);
@@ -31,6 +31,7 @@ void print_times_table(int limit)
 			if (cone < limit)
 			{
 				_putchar(',');
+				_putchar(' ');
      			}
 		}
 		_putchar('\n');
