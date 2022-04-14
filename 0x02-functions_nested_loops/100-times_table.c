@@ -31,8 +31,7 @@ void print_times_table(int limit)
 			if (cone < limit)
 			{
 				_putchar(',');
-				_putchar(' ');
-			}
+     			}
 		}
 		_putchar('\n');
 	}
