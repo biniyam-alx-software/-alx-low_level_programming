@@ -5,7 +5,7 @@
  * Return: times table
  * add extra space past single digit
  */
-void times_table(int limit)
+void print_times_table(int limit)
 {
 	int rone, cone, d;
 
