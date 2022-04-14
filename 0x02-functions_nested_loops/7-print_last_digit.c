@@ -4,9 +4,9 @@
  * @nld: number's last digit result
  * Return: value of the last digit
  */
- int print_last_digit(int nld)
+int print_last_digit(int nld)
 {
-        int pld;
+	int pld;
 
 	pld = (nld % 10);
 
@@ -15,6 +15,6 @@
 		pld = (-1 * pld);
 	}
 
-	_putchar(pld);
+	_putchar(pld + '0');
+	return (pld);
 }
-
