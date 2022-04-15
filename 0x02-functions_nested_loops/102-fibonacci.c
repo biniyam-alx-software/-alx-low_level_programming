@@ -7,7 +7,7 @@
  */
 int main() {
 
-  int i, n;
+  int i, n=50;
 
   int t1 = 1, t2 = 2;
 
